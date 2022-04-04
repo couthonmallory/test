@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="convertisseur.css">
+	<title>Convertisseur</title>
+</head>
+<body>
+<p>
+	Mon convertisseur<br>
+	<form action="conv.php" method="POST"></form>
+	<fieldset>
+		<legend>Convertisseur euro </legend>
+		<table  align="center">
+			<tr>
+				<td>
+					<label for="euros">euros</label> <input type="number" name="euros" id="euros" min="1">
+				</td>
+				<td>
+					<p> ===> </p>
+				</td>
+				<td>
+					<label for="dirhams">dirhams</label> <input type="number" name="dirhams" id="dirhams" >
+				</td>
+				
+			</tr>
+				<tr>
+				<td colspan="3">
+					 <input type="submit"  id="envoie" value="Calculer">
+				</td>
+			</tr>
+		</table>
+	</fieldset>
+</p>
+
+
+
+</body>
+</html>
